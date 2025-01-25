@@ -5,7 +5,7 @@ import shutil
 import os
 import telebot
 from telebot import types
-BOT_TOKEN = '7094092093:AAHrwOOL2BWiORsteQ6pMV3bVzmAEK5Vf1A'
+BOT_TOKEN = 'your bot API'
 bot = telebot.TeleBot(BOT_TOKEN)
 output_folder="/content/runs/detect/predict"
 @bot.message_handler(content_types=['photo'])
